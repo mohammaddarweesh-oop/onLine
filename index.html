@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2 id="title">OffLine Now</h2>
+        <ul>
+            <li>Check the connection</li>
+            <li>Chack the proxy and the firewall</li>
+            <li>Running Windows Network Diagnostics</li>
+        </ul>
+        <button class="reload" onclick="wifi()">Reload</button>
+    </div>
+
+
+    <script src="script.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- <script>
+        function wifi(){
+            if (navigator.onLine == true) {
+                document.querySelector("#title").innerHTML = "OnLine Now";
+                document.querySelector("#title").style.color = "green";
+                document.querySelector("#title").style.width = "500px";
+            }
+            else{
+                document.querySelector("#title").innerHTML = "OffLine Now";
+            }
+        }
+    </script> -->
+
+    
+    <!-- <script>
+        var checkStatus = function (){
+            if (navigator.onLine == true) {
+                document.querySelector("h2").innerHTML="OnLine Now";
+            }
+            else{
+                document.querySelector("h2").innerHTML="offline";
+            }
+        }
+        checkStatus();
+        window.addEventListener("online",function(){
+            checkStatus();
+        });
+        window.addEventListener("offline",function(){
+            checkStatus();
+        });
+    </script> -->
+</body>
+</html>
